@@ -5,8 +5,14 @@
 이 프로젝트는 YOLOv8-Pose 모델을 사용하여 낙상 감지 시스템을 개발하는 데 중점을 두고 있습니다. 시스템은 신체의 관절 간 각도를 분석하여 영상에서 실시간으로 낙상을 감지합니다. 목표는 오탐(false positive) 비율을 줄이면서 정확한 낙상 감지를 달성하는 것입니다.
 
 * 사용할 데이터 셋
-http://fenix.ur.edu.pl/~mkepski/ds/uf.html
+  http://fenix.ur.edu.pl/~mkepski/ds/uf.html
 
+* 사용할 코드
+  https://github.com/16dina/fall-detection/tree/main
+
+* 사용할 논문
+  https://ieeexplore.ieee.org/document/9854070
+  
 * 주요 기능
 1. 실시간 사람 탐지: 사람을 인식하고, 바운딩 박스와 신뢰도 점수(예: `person 0.91`는 사람이 탐지되었을 확률이 91%라는 의미)를 표시합니다.
 2. 자세 분석: 신체의 관절 좌표(어깨, 엉덩이, 다리 등)를 추출하여 관절 간의 각도를 계산합니다.
